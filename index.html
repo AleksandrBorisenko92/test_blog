@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/index.css">
+        <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick.css"/>
+	    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick-theme.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="top_menu">
+                <div class= "top_menu-items d-flex j-content-btw">
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/?hl=ru" class="fab fa-facebook-f"></a></li>
+                        <li><a href="https://twitter.com/"class="fab fa-twitter"></a></li>
+                        <li><a href="https://www.pinterest.com/"class="fab fa-pinterest-p"></a></li>
+                        <li><a href="https://www.vk.com/"class="fab fa-vk"></a></li>
+                        <li><a href="https://www.google.com.ua/?hl=ru"class="fab fa-google-plus-g"></a></li>
+                        <li><a href="https://www.behance.net/"class="fab fa-behance"></a></li>
+                        <li><a href=""class="fas fa-basketball-ball"></a></li>
+                        <li><a href="https://www.instagram.com/?hl=ru"class="fab fa-instagram"></a></li>
+                    </ul>
+                    <div class="tools d-flex ai-center">
+                        <div class="sign_in">
+                            <div class="far fa-user-circle"></div>
+                            <span class="p-relative ">SIGN IN</span>
+                        </div>
+                        <div class="language">
+                            <div class="fas fa-globe"></div>
+                            <select class="language_item">
+                                <option value="">ENG</option>
+                                <option value="">RU</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_wrapper">
+                <div class="main_menu">
+                    <div class="nav_menu d-flex j-content-btw ai-center">
+                        <div class="logo">LOGO</div>
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox" />
+                            <label class="menu__btn" for="menu__toggle"></label>
+                            <ul class="menu__box">
+                                <li><a class="menu__item" href="#">HOME</a></li>
+                                <li><a class="menu__item" href="#">PORTFOLIO</a></li>
+                                <li><a class="menu__item" href="#">BLOG</a></li>
+                                <li><a class="menu__item" href="#">PAGES</a></li>
+                                <li><a class="menu__item" href="#">COMPONENTS</a></li>
+                            </ul>
+                          </div>
+                        <nav>
+                            <ul class="topmenu">
+                                <li><a class="sub_menu-link">HOME</a>
+                                    <ul class="submenu">
+                                        <li><a href="">BLOG</a></li>
+                                        <li><a href="">SHOP</a></li>
+                                        <li><a href="">FETURES</a></li>
+                                        <li><a href="">PORTFOLIO</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="sub_menu-link">PORTFOLIO</a>
+                                    <ul class="submenu">
+                                        <li><a href="">BLOG</a></li>
+                                        <li><a href="">SHOP</a></li>
+                                        <li><a href="">FETURES</a></li>
+                                        <li><a href="">PORTFOLIO</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="sub_menu-link">BLOG</a>
+                                    <ul class="submenu">
+                                        <li><a href="">BLOG</a></li>
+                                        <li><a href="">SHOP</a></li>
+                                        <li><a href="">FETURES</a></li>
+                                        <li><a href="">PORTFOLIO</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="sub_menu-link">PAGES</a>
+                                    <ul class="submenu">
+                                        <li><a href="">BLOG</a></li>
+                                        <li><a href="">SHOP</a></li>
+                                        <li><a href="">FETURES</a></li>
+                                        <li><a href="">PORTFOLIO</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="sub_menu-link">SHOP</a>
+                                    <ul class="submenu">
+                                        <li><a href="">BLOG</a></li>
+                                        <li><a href="">SHOP</a></li>
+                                        <li><a href="">FETURES</a></li>
+                                        <li><a href="">PORTFOLIO</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="sub_menu-link">COMPONENTS</a>
+                                    <ul class="submenu">
+                                        <li><a href="">BLOG</a></li>
+                                        <li><a href="">SHOP</a></li>
+                                        <li><a href="">FETURES</a></li>
+                                        <li><a href="">PORTFOLIO</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="sub_menu-link">FEATURES</a>
+                                    <ul class="submenu">
+                                        <li><a href="">BLOG</a></li>
+                                        <li><a href="">SHOP</a></li>
+                                        <li><a href="">FETURES</a></li>
+                                        <li><a href="">PORTFOLIO</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="nav-bar_items p-relative">
+                            <div class="fas fa-search"></div>
+                            <div class="far fa-heart"></div>
+                            <div class="fas fa-shopping-cart"></div>
+                        </div>
+                    </div>
+                    <div class="hidden">
+                        <div class="slider p-relative">
+                            <div class="slider_item p-relative d-flex">
+                                <h1 class="main-header_tittle">INSPIRATION</h1>
+                                <div class="main-header_about">
+                                    <span>LOREM IPSUM IS SIMPLY DUMMY TEXT OF </br>THE PRINTING AND TYPEESETTING INDUSTRY</span>
+                                </div>
+                                <div class="btn">
+                                    <button class="read_more-btn">READ MORE</button>
+                                </div>
+                                <div class="author d-flex m-auto flex-column">
+                                    <div class="photo_author">
+                                        <img src="">
+                                    </div>
+                                    <span class="author_name text-center ">Henry Little</span>
+                                    <div class="date_publ m-auto">April 28, 2016<span>10:15</span></div>
+                                    <div class="social_info m-auto">
+                                        <div class="comments fas fa-comments">Comments(28)</div>
+                                        <div class="likes fas fa-heart">Likes (07)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider_item p-relative d-flex">
+                                <h1 class="main-header_tittle">INSPIRATION</h1>
+                                <div class="main-header_about">
+                                    <span>LOREM IPSUM IS SIMPLY DUMMY TEXT OF </br>THE PRINTING AND TYPEESETTING INDUSTRY</span>
+                                </div>
+                                <div class="btn">
+                                    <button class="read_more-btn">READ MORE</button>
+                                </div>
+                                <div class="author d-flex m-auto flex-column">
+                                    <div class="photo_author">
+                                        <img src="">
+                                    </div>
+                                    <span class="author_name text-center ">Henry Little</span>
+                                    <div class="date_publ m-auto">April 28, 2016<span>10:15</span></div>
+                                    <div class="social_info m-auto">
+                                        <div class="comments fas fa-comments">Comments(28)</div>
+                                        <div class="likes fas fa-heart">Likes (07)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider_item p-relative d-flex">
+                                <h1 class="main-header_tittle">INSPIRATION</h1>
+                                <div class="main-header_about">
+                                    <span>LOREM IPSUM IS SIMPLY DUMMY TEXT OF </br>THE PRINTING AND TYPEESETTING INDUSTRY</span>
+                                </div>
+                                <div class="btn_1">
+                                    <button class="read_more-btn">READ MORE</button>
+                                </div>
+                                <div class="author d-flex m-auto flex-column">
+                                    <div class="photo_author">
+                                        <img src="">
+                                    </div>
+                                    <span class="author_name text-center ">Henry Little</span>
+                                    <div class="date_publ m-auto">April 28, 2016<span>10:15</span></div>
+                                    <div class="social_info m-auto">
+                                        <div class="comments fas fa-comments">Comments(28)</div>
+                                        <div class="likes fas fa-heart">Likes (07)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="slick-prev p-absolute"></button>
+                            <button type="button" class="slick-next p-absolute"></button>
+                        </div>  
+                    </div>
+                </div>  
+            </div>
+        </header>
+        <main>
+            <div class="sort-panel_wrapper">
+                <div class="sort_panel d-flex">
+                    <div class="sort_tittle">
+                        <span>SORT BLOG:</span>
+                    </div>
+                    <div id="button-sort" onclick="sort()" class="visabylity">Sort Blog
+                        <div id="btncontainer" class="visabylity">
+                            <ul id="myBtnContainer" class="submenu_sort" >
+                                <li><button class="btn active" onclick="filterSelection('all')"> ALL</button></li>
+                                <li><button class="btn" onclick="filterSelection('photography')"> PHOTOGRAPHY</button></li>
+                                <li><button class="btn" onclick="filterSelection('lifestyle')"> LIFESTYLE</button></li>
+                                <li><button class="btn" onclick="filterSelection('trip')"> TRIP</button></li>
+                                <li><button class="btn" onclick="filterSelection('inspiration')"> INSPIRATION</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="myBtnContainer" class="d-flex visabylity-h sort-panel-btn">
+                        <button class="btn btn_filter active" onclick="filterSelection('all')">ALL</button>
+                        <button class="btn btn_filter " onclick="filterSelection('photography')">PHOTOGRAPHY</button>
+                        <button class="btn btn_filter" onclick="filterSelection('lifestyle')">LIFESTYLE</button>
+                        <button class="btn btn_filter" onclick="filterSelection('trip')">TRIP</button>
+                        <button class="btn btn_filter" onclick="filterSelection('inspiration')">INSPIRATION</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex">
+                <div class="content">
+                    <div class="content_block-large d-flex flex-column lifestyle filterDiv" style="height: fit-content">
+                        <div class="content_block-large-img j-content-btw d-flex">
+                            <div class="tags-stat d-flex">LIFESTYLE</div>
+                            <div class="commit fas fa-comments">7<div class="fas fa-heart">15</div></div>
+                        </div>
+                        <div class="content_block-post">
+                            <h3 class="content_post-titlle">10 Things To Do To Change  Your Life Forever</h3>
+                            <p>The one constant thing in our life is change. We cannot avoid 
+                                it and the more we resist change the tougher our life becomes. 
+                                I know this because I was very skilled at deflecting change in life.</p>
+                        </div>
+                        <div class="content_block-author d-flex j-content-btw">
+                            <div class="block-author d-flex ">
+                                <div class="block-author-img"></div>
+                                <div class="block-author-info">
+                                    <span>Henry Little</span></br>
+                                    <span>April 28,   2016 <span>10:15</span></span>
+                                </div>
+                            </div>
+                            <div class="fas fa-ellipsis-v"></div>
+                        </div>
+                    </div>
+                    <div class="content_block-small-landscape d-flex inspiration filterDiv">
+                        <div class="content_block-small-img w-33 j-content-btw d-flex" style="background-image: url(./assets/img/smallcontentimg.png);">
+                            <div class="tags-stat d-flex">INSPIRATION</div>
+                            <div class="commit fas fa-comments">7<div class="fas fa-heart">15</div></div>
+                        </div>
+                        <div class="post_wrapper-sm">
+                            <div class="content_block-post-sm">
+                                <h4 class="content_post-titlle">4 Natural Ways To Have Young Skin</h4>
+                                <p>Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula 
+                                    lorem and lacus. Vestibulum vitae mauris lorem ipsum doar. </p>
+                            </div>
+                            <div class="content_block-author-sm d-flex j-content-btw">
+                                <div class="block-author-sm d-flex ">
+                                    <div class="block-author-img-sm" style="background-image: url(./assets/img/jamesLeman.png);"></div>
+                                    <div class="block-author-info">
+                                        <span>James Leman</span></br>
+                                        <span>April 28,   2016 <span>10:15</span></span>
+                                    </div>
+                                </div>
+                                <div class="fas fa-ellipsis-v"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="content_block-small-landscape d-flex inspiration filterDiv">
+                        <div class="content_block-small-img w-33 j-content-btw d-flex" style="background-image: url(./assets/img/skeit.png);">
+                            <div class="tags-stat d-flex">INSPIRATION</div>
+                            <div class="commit fas fa-comments">7<div class="fas fa-heart">15</div></div>
+                        </div>
+                        <div class="post_wrapper-sm">
+                            <div class="content_block-post-sm">
+                                <h4 class="content_post-titlle">Six Hobbies That Can Help You Beat Stress</h4>
+                                <p>Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula 
+                                    lorem and lacus. Vestibulum vitae mauris lorem ipsum doar. </p>
+                            </div>
+                            <div class="content_block-author-sm d-flex j-content-btw">
+                                <div class="block-author-sm d-flex ">
+                                    <div class="block-author-img-sm" style="background-image: url(./assets/img/user.png);"></div>
+                                    <div class="block-author-info">
+                                        <span>James Leman</span></br>
+                                        <span>April 28,   2016 <span>10:15</span></span>
+                                    </div>
+                                </div>
+                                <div class="fas fa-ellipsis-v"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="content_block-small-landscape d-flex inspiration filterDiv">
+                        <div class="content_block-small-img w-33 j-content-btw d-flex" style="background-image: url(./assets/img/sea.png);">
+                            <div class="tags-stat d-flex">INSPIRATION</div>
+                            <div class="commit fas fa-comments">7<div class="fas fa-heart">15</div></div>
+                        </div>
+                        <div class="post_wrapper-sm">
+                            <div class="content_block-post-sm">
+                                <h4 class="content_post-titlle">10 Singals From Your Body Telling You</h4>
+                                <p>Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula 
+                                    lorem and lacus. Vestibulum vitae mauris lorem ipsum doar. </p>
+                            </div>
+                            <div class="content_block-author-sm d-flex j-content-btw">
+                                <div class="block-author-sm d-flex ">
+                                    <div class="block-author-img-sm" style="background-image: url(./assets/img/bengamin.png);"></div>
+                                    <div class="block-author-info">
+                                        <span>Benjamin Miller</span></br>
+                                        <span>April 28,   2016 <span>10:15</span></span>
+                                    </div>
+                                </div>
+                                <div class="fas fa-ellipsis-v"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="content_block-small-portrait d-flex inspiration m-r filterDiv">
+                        <div class="content_block-small-img-port w-33 j-content-btw d-flex" style="background-image: url(./assets/img/grape.png);">
+                            <div class="tags-stat d-flex">INSPIRATION</div>
+                            <div class="commit fas fa-comments">7<div class="fas fa-heart">15</div></div>
+                        </div>
+                        <div class="post_wrapper-sm">
+                            <div class="content_block-post-sm-port">
+                                <h4 class="content_post-titlle-port">Food That Actually Taste Better When You Freeze </h4>
+                                <p>Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula 
+                                    lorem and lacus. Vestibulum vitae mauris. </p>
+                            </div>
+                            <div class="content_block-author-sm-port d-flex j-content-btw">
+                                <div class="block-author-sm-port d-flex ">
+                                    <div class="block-author-img-sm" style="background-image: url(./assets/img/jamesLeman.png);"></div>
+                                    <div class="block-author-info">
+                                        <span>James Leman</span></br>
+                                        <span>April 28,   2016 <span>10:15</span></span>
+                                    </div>
+                                </div>
+                                <div class="fas fa-ellipsis-v"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="content_block-small-portrait d-flex trip  filterDiv m-r">
+                        <div class="content_block-small-img-port w-33 j-content-btw d-flex" style="background-image: url(./assets/img/girlwithhat.png);">
+                            <div class="tags-stat d-flex">TRIP</div>
+                            <div class="commit fas fa-comments">7<div class="fas fa-heart">15</div></div>
+                        </div>
+                        <div class="post_wrapper-sm">
+                            <div class="content_block-post-sm-port">
+                                <h4 class="content_post-titlle-port">Why It’s Amazing To Date People Who Love Traveling</h4>
+                                <p>Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula 
+                                    lorem and lacus. Vestibulum vitae mauris. </p>
+                            </div>
+                            <div class="content_block-author-sm-port d-flex j-content-btw">
+                                <div class="block-author-sm-port d-flex ">
+                                    <div class="block-author-img-sm" style="background-image: url(./assets/img/bengamin.png);"></div>
+                                    <div class="block-author-info">
+                                        <span>Benjamin Miller</span></br>
+                                        <span>April 28,   2016 <span>10:15</span></span>
+                                    </div>
+                                </div>
+                                <div class="fas fa-ellipsis-v"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="content_block-small-portrait d-flex filterDiv inspiration">
+                        <div class="content_block-small-img-port w-33 j-content-btw d-flex" style="background-image: url(./assets/img/nig.png);">
+                            <div class="tags-stat d-flex">LIFESTYLE</div>
+                            <div class="commit fas fa-comments">7<div class="fas fa-heart">15</div></div>
+                        </div>
+                        <div class="post_wrapper-sm">
+                            <div class="content_block-post-sm-port">
+                                <h4 class="content_post-titlle-port">5 Useful Tips for Novice Painters</h4>
+                                <p>Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula 
+                                    lorem and lacus. Vestibulum vitae mauris. </p>
+                            </div>
+                            <div class="content_block-author-sm-port d-flex j-content-btw">
+                                <div class="block-author-sm-port d-flex ">
+                                    <div class="block-author-img-sm" style="background-image: url(./assets/img/henry_little.png);"></div>
+                                    <div class="block-author-info">
+                                        <span>Henry Little</span></br>
+                                        <span>April 28,   2016 <span>10:15</span></span>
+                                    </div>
+                                </div>
+                                <div class="fas fa-ellipsis-v"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="content_block-medium-portrait w-48 d-flex flex-column inspiration filterDiv m-r16">
+                        <div class="content_block-medium-img-port w-33 j-content-btw d-flex" style="background-image: url(./assets/img/clouds.png);">
+                            <div class="tags-stat d-flex">LIFESTYLE</div>
+                            <div class="commit fas fa-comments">7<div class="fas fa-heart">15</div></div>
+                        </div>
+                        <div class="post_wrapper-sm">
+                            <div class="content_block-post-md-port">
+                                <h4 class="content_post-titlle-port">11 Fantastic Ways Passionate</h4>
+                                <p>Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. 
+                                    Vestibulum vitae mauris gravida, ipsu viverra urna at, dictume nunc fringilla quam.  </p>
+                            </div>
+                            <div class="content_block-author-sm-port  p-left-0 d-flex j-content-btw">
+                                <div class="block-author-sm-port d-flex ">
+                                    <div class="block-author-img-sm d-none " style="background-image: url(./assets/img/bengamin.png);"></div>
+                                    <div class="block-author-info">
+                                        <span>James Leman</span></br>
+                                        <span>April 28,   2016 <span>10:15</span></span>
+                                    </div>
+                                </div>
+                                <div class="fas fa-ellipsis-v"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="content_block-medium-portrait w-48 d-flex flex-column filterDiv photography">
+                        <div class="content_block-medium-img-port w-33 j-content-btw d-flex" style="background-image: url(./assets/img/working.png);">
+                            <div class="tags-stat d-flex">INSPIRATION</div>
+                            <div class="commit fas fa-comments">7<div class="fas fa-heart">15</div></div>
+                        </div>
+                        <div class="post_wrapper-sm">
+                            <div class="content_block-post-md-port">
+                                <h4 class="content_post-titlle-port">Art Makes You Mentally Healthy</h4>
+                                <p>Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. 
+                                    Vestibulum vitae mauris gravida, ipsu viverra urna at, dictume nunc fringilla quam. </p>
+                            </div>
+                            <div class="content_block-author-sm-port p-left-0 d-flex j-content-btw">
+                                <div class="block-author-sm-port d-flex ">
+                                    <div class="block-author-img-sm d-none " style="background-image: url(./assets/img/henry_little.png);"></div>
+                                    <div class="block-author-info">
+                                        <span>Benjamin Miller</span></br>
+                                        <span>April 28,   2016 <span>10:15</span></span>
+                                    </div>
+                                </div>
+                                <div class="fas fa-ellipsis-v"></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="more">More
+                        <button class="more_btn fas fa-arrow-right"></button>
+                    </div>
+                </div>   
+                <div class="side_bar">
+                    <div class="side_bar-content">
+                        <form class="form_search">
+                            <input class="search_input" type="text" placeholder="Search">
+                            <button class="search_btn fas fa-search" type="submit"></button>
+                        </form>
+                        <div class="block_categories d-flex flex-column">
+                            <span class="categ_titlle">CATEGORIES</span>
+                            <div class="categ_items">
+                                <div class="categ_item d-flex j-content-btw">Photography<div>195</div></div>
+                                <div class="categ_item d-flex j-content-btw">Illustration<div>15</div></div>
+                                <div class="categ_item d-flex j-content-btw">Graphic Desing<div>36</div></div>
+                                <div class="categ_item d-flex j-content-btw">Web desing<div>220</div></div>
+                                <div class="categ_item d-flex j-content-btw">Videography<div>17</div></div>
+                            </div>
+                        </div>
+                        <div class="subscribe_block">
+                            <div class="subscribe_titlle">SUBCRIBE</div>
+                            <span>Name</span>
+                            <form class="sub_form">
+                                <input class="sub_input-name" type="text" placeholder="Igor Ten">
+                            </form>
+                            <span>Email</span>
+                            <form class="sub_form">
+                                <input type="text" class="sub_input-name" placeholder="email@adress.com">
+                            </form>
+                            <button class="sub_btn">SUBCRIBE</button>
+                        </div>
+                        <div class="or">or</div>
+                        <div class="sub_links d-flex">
+                            <div class="sub_links-item" style="background-image: url(./assets/img/facebook_logo1.png)">
+                                <a href="#"></a>
+                            </div>
+                            <div class="sub_links-item" style="background-image: url(./assets/img/twitter1.png)">
+                                <a href="#"></a>
+                            </div>
+                            <div class="sub_links-item" style="background-image: url(./assets/img/vk-computer1.png)">
+                                <a href="#"></a>
+                            </div>
+                            <div class="sub_links-item" style="background-image: url(./assets/img/twitter1.png)">
+                                <a href="#"></a>
+                            </div>
+                            <div class="sub_links-item" style="background-image: url(./assets/img/vk-computer1.png)">
+                                <a href="#"></a>
+                            </div>
+                            <div class="sub_links-item" style="background-image: url(./assets/img/facebook_logo1.png)">
+                                <a href="#"></a>
+                            </div>
+                        </div>
+                        <div class="widget_block">
+                            <div class="widget_titlle">TAB POST WIDGET</div>
+                        </div>
+                        <div class="tabs">
+                            <button class="widget_btn">RESENT POST</button>
+                            <button class="widget_btn">POPULAR POST</button>
+                        </div>
+                        <div class="widget_posts">
+                            <div class="widget_post d-flex ">
+                                <div class="widget-post_photo d-flex" style="background-image: url(./assets/img/widget1.png)"></div>
+                                <div class="widget-post_info d-flex flex-column ">
+                                    <div class="widget-post_date d-flex j-content-btw">
+                                        <div>April 28, 2016</div>
+                                        <div class="fas fa-comments">17</div>
+                                    </div>
+                                    <div class="post_text">Duis commodo elit sed nisi molestie</div>
+                                </div>
+                            </div>
+                            <div class="widget_post d-flex ">
+                                <div class="widget-post_photo d-flex" style="background-image: url(./assets/img/widget2.png)"></div>
+                                <div class="widget-post_info d-flex flex-column ">
+                                    <div class="widget-post_date d-flex j-content-btw">
+                                        <div>April 28, 2016</div>
+                                        <div class="fas fa-comments">17</div>
+                                    </div>
+                                    <div class="post_text">Duis commodo elit sed nisi molestie</div>
+                                </div>
+                            </div>
+                            <div class="widget_post d-flex ">
+                                <div class="widget-post_photo d-flex" style="background-image: url(./assets/img/widget3.png)"></div>
+                                <div class="widget-post_info d-flex flex-column ">
+                                    <div class="widget-post_date d-flex j-content-btw">
+                                        <div>April 28, 2016</div>
+                                        <div class="fas fa-comments">17</div>
+                                    </div>
+                                    <div class="post_text">Duis commodo elit sed nisi molestie</div>
+                                </div>
+                            </div>
+                            <div class="widget_post d-flex ">
+                                <div class="widget-post_photo d-flex" style="background-image: url(./assets/img/widget4.png)"></div>
+                                <div class="widget-post_info d-flex flex-column ">
+                                    <div class="widget-post_date d-flex j-content-btw">
+                                        <div>April 28, 2016</div>
+                                        <div class="fas fa-comments">17</div>
+                                    </div>
+                                    <div class="post_text">Duis commodo elit sed nisi molestie</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tags_block">
+                            <div class="tags_titlle">TAGS</div>
+                            <div class="tags_items d-flex flex-wrap">
+                                <div class="tag_item">Photography</div>
+                                <div class="tag_item">Webdesing</div>
+                                <div class="tag_item">Youtube</div>
+                                <div class="tag_item">Envato</div>
+                                <div class="tag_item">Art</div>
+                                <div class="tag_item">Themeforest</div>
+                                <div class="tag_item">Illustration</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="insta_widget d-flex">
+                <div class="insta_item" style="background-image: url(./assets/img/Layer\ 21@1X.png);"></div>
+                <div class="insta_item" style="background-image: url(./assets/img/Layer\ 22@1X.png);"></div>
+                <div class="insta_item" style="background-image: url(./assets/img/Layer\ 23@1X.png);"></div>
+                <div class="insta_item" style="background-image: url(./assets/img/Layer\ 24@1X.png);"></div>
+                <div class="insta_item" style="background-image: url(./assets/img/Layer\ 26@1X.png);"></div>
+                <div class="insta_item" style="background-image: url(./assets/img/Layer\ 31@1X.png);"></div>
+                <div class="insta_item" style="background-image: url(./assets/img/Layer\ 32@1X.png);"></div>
+                <div class="insta_item" style="background-image: url(./assets/img/Layer68@1X.png);"></div>
+            </div>
+            <div class="subscribe_section d-flex jc-center ">
+                <div class="sub_titlle">Subscribe to our newsletter</div>
+                <form class="subscribe_form">
+                    <input class="subscribe_input" type="text" placeholder="Email Adress">
+                </form>
+                <div class="sb_btn">
+                    <button class="subscribe_btn">SUBSCRIBE</button>
+                </div>
+            </div>
+            <div class="widget_section d-flex">
+                <div class="logo_ingormation visabylity">
+                    <span class="logo">LOGO</span>
+                    <p class="logo_info">LOGO sit amet varius orci. Duis upse commodo 
+                        elit sedamocid nisimole up stie, vitae fringilla justo fringilla.
+                         Lori Vestibulum libr portaman neque enia gravida elementum 
+                         facilisis ipsum leonardo. Vestibulum loeuenim and libero, 
+                         lobortis eu tortor ut, hendrerit  maxi tellus. Vivamus egestas 
+                         massa leo, sit amet facilisis commodo. </p>
+                    <button class="read_more-btn">READ MORE</button>
+                </div>
+                <div class="page_widget">
+                    <div class="widget_tittle">PAGES WIDGET</div>
+                    <div class="accordion_widget">
+                        <button class="accordion">HOME</button>
+                        <div class="panel">
+                            <p>Service</p>
+                            <p>FAQ</p>
+                            <p>About</p>
+                        </div>
+                        <button class="accordion">PAGES</button>
+                        <div class="panel">
+                            <p>Service</p>
+                            <p>FAQ</p>
+                            <p>About</p>
+                        </div>
+                        <button class="accordion">PORTFOLIO</button>
+                        <div class="panel">
+                            <p>Service</p>
+                            <p>FAQ</p>
+                            <p>About</p>
+                        </div>
+                        <button class="accordion">BLOG</button>
+                        <div class="panel">
+                            <p>Service</p>
+                            <p>FAQ</p>
+                            <p>About</p>
+                        </div>
+                        <button class="accordion">SHOP</button>
+                        <div class="panel">
+                            <p>Service</p>
+                            <p>FAQ</p>
+                            <p>About</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="twitter-wjs">
+                    <div class="twitter_wrappe">
+                        <div class="widget_tittle">TWITTER WIDGET</div>
+                        <a class="twitter-timeline" data-width="267" data-height="250" data-theme="dark" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> 
+                    </div>
+                    <div class="">
+                        <div class="widget_tittle">SOCIAL WIDGET</div>
+                        <div class="social_widget d-flex">
+                            <div class="sub_links-item" style="background-image: url(./assets/img/twitter1.png)">
+                                <a href="#"></a>
+                            </div>
+                            <div class="sub_links-item" style="background-image: url(./assets/img/facebook_logo1.png)">
+                                <a href="#"></a>
+                            </div>
+                            <div class="sub_links-item" style="background-image: url(./assets/img/vk-computer1.png)">
+                                <a href="#"></a>
+                            </div>
+                            <div class="sub_links-item" style="background-image: url(./assets/img/facebook_logo1.png)">
+                                <a href="#"></a>
+                            </div>
+                            <div class="sub_links-item" style="background-image: url(./assets/img/twitter1.png)">
+                                <a href="#"></a>
+                            </div>
+                            <div class="sub_links-item" style="background-image: url(./assets/img/vk-computer1.png)">
+                                <a href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_categories d-flex flex-column visabylity">
+                    <span class="categ_titlle">CATEGORIES</span>
+                    <div class="categ_items">
+                        <div class="categ_item d-flex j-content-btw">Photography<div>195</div></div>
+                        <div class="categ_item d-flex j-content-btw">Illustration<div>15</div></div>
+                        <div class="categ_item d-flex j-content-btw">Graphic Desing<div>36</div></div>
+                        <div class="categ_item d-flex j-content-btw">Web desing<div>220</div></div>
+                        <div class="categ_item d-flex j-content-btw">Videography<div>17</div></div>
+                    </div>
+                </div>
+                <div class="tags_block visabylity">
+                    <div class="tags_titlle">TAGS</div>
+                    <div class="tags_items d-flex flex-wrap">
+                        <div class="tag_item">Photography</div>
+                        <div class="tag_item">Webdesing</div>
+                        <div class="tag_item">Youtube</div>
+                        <div class="tag_item">Envato</div>
+                        <div class="tag_item">Art</div>
+                        <div class="tag_item">Themeforest</div>
+                        <div class="tag_item">Illustration</div>
+                        <div class="tag_item">Youtube</div>
+                        <div class="tag_item">Envato</div>
+                        <div class="tag_item">Art</div>
+                        <div class="tag_item">Photography</div>
+                        <div class="tag_item">Webdesing</div>
+                    </div>
+                </div>
+                <div class="Flickr_widget">
+                    <div class="widget_tittle">FLICKR WIDGET</div>
+                    <div class="flick_items">
+                        <div class="flickr_item" style="background-image: url(./assets/img/Layer\ 33@1X.png);"></div>
+                        <div class="flickr_item" style="background-image: url(./assets/img/Layer\ 34@1X.png);"></div>
+                        <div class="flickr_item" style="background-image: url(./assets/img/Layer\ 43@1X.png);"></div>
+                        <div class="flickr_item" style="background-image: url(./assets/img/Layer\ 39@1X.png);"></div>
+                        <div class="flickr_item visabylity-h" style="background-image: url(./assets/img/Layer\ 37@1X.png);"></div>
+                        <div class="flickr_item visabylity-h" style="background-image: url(./assets/img/Layer\ 38@1X.png);"></div>
+                        <div class="flickr_item visabylity-h" style="background-image: url(./assets/img/Layer\ 41@1X.png);"></div>
+                        <div class="flickr_item visabylity-h" style="background-image: url(./assets/img/Layer\ 35@1X.png);"></div>
+                        <div class="flickr_item visabylity-h" style="background-image: url(./assets/img/Layer\ 42@1X.png);"></div>
+                    </div>
+                </div>
+                <div class="news_letter">
+                    <div class="subscribe_block-ft">
+                        <div class="widget_tittle">NEWS LETTER</div>
+                        
+                        <form class="sub_form-ft">
+                            <input class="sub_input-name" type="text" placeholder="Name">
+                        </form>
+                       
+                        <form class="sub_form-ft1">
+                            <input type="text" class="sub_input-name" placeholder="email@adress.com">
+                        </form>
+                        <form class="sub_form-ft2">
+                            <input type="text" class="sub_input-name" placeholder="Message">
+                        </form>
+                        <button class="sub_btn-ft">SUBCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-wrap">
+                <div class="navigation-ft d-flex">
+                    <div class="nav_elems">
+                        <a href="#" class="nav_elem">HOME</a>
+                        <a href="#" class="nav_elem">PORTFOLIO</a>
+                        <a href="#" class="nav_elem">BLOG</a>
+                        <a href="#" class="nav_elem">PAGES</a>
+                        <a href="#" class="nav_elem">SHOP</a>
+                        <a href="#" class="nav_elem">CONPONENTS</a>
+                        <a href="#" class="nav_elem">FEATURES</a>
+                    </div>
+                    <form class="form_search-ft">
+                        <input class="search_input-ft" type="text" placeholder="Search">
+                        <button class="search_btn-ft fas fa-search" type="submit"></button>
+                    </form>
+                    <div class="language-ft">
+                        <div class="fas fa-globe"></div>
+                        <select class="language_item-ft">
+                            <option value="">ENG</option>
+                            <option value="">RU</option>
+                        </select>
+                    </div>
+                </div>
+                <ul class="social-ft visabylity">
+                    <li class="fab fa-facebook-f"></li>
+                    <li class="fab fa-twitter"></li>
+                    <li class="fab fa-pinterest-p"></li>
+                    <li class="fab fa-vk"></li>
+                    <li class="fab fa-google-plus-g"></li>
+                    <li class="fab fa-behance"></li>
+                    <li class="fas fa-basketball-ball"></li>
+                </ul>
+                <span class="rigths visabylity">© 2016 LOGO l ALL Rights Reserved</span>
+            </div>
+        </footer>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://kit.fontawesome.com/c686eb15da.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/slick-1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            fade: false,
+            prevArrow: '<button type="button" class="slider-pre"><img src="assets/img/chevron-left-solid.svg"></button>',
+            nextArrow: '<button type="button" class="slider-next"><img src="assets/img/chevron-right-solid.svg"></button>',
+        });
+    });
+</script>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+        });
+    }       
+</script>
+<script>
+    function sort() {
+    document.getElementById("btncontainer").style.display = "inline-block";
+    } 
+    jQuery(function($){
+        $(document).mouseup(function (e){ 
+        var div = $("#btncontainer"); 
+            if (!div.is(e.target) 
+            || div.is(e.target)) { 
+                div.hide(); 
+            }
+        });
+    });
+</script>
+<script>
+    filterSelection("all")
+    function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("filterDiv");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+    }
+    
+    function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+    }
+    
+    function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+        }
+        element.className = arr1.join(" ");
+    }
+    
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });
+    }
+    </script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </body>
+</html>
+
